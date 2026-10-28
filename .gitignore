@@ -1,0 +1,86 @@
+# ==============================================================================
+# NPC Capstone Project: Malware Analysis Sandbox Using VirtualBox or VMware
+# Git Ignore Configuration
+# Student: Harshal Bhagwan Harde | PRN: 2125UCSM1001
+# Sanjivani University, Kopargaon | Academic Year: 2026–2027
+# ==============================================================================
+
+# Virtual Machine Disk Images & Hard Drives
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.qcow2
+*.hdd
+*.raw
+*.iso
+*.img
+
+# Virtual Machine State, Memory Dumps & Snapshots
+*.vmem
+*.vmsn
+*.vmsd
+*.vmss
+*.nvram
+*.sav
+*.vbox-prev
+*.vbox-tmp
+
+# Virtual Machine Log Files
+*.log
+vbox.log*
+vmware*.log
+
+# Hypervisor Lock & Temporary Directories
+*.lck/
+*.vmx.lck/
+*.vmdk.lck/
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Heavy Binary Evidence (Keep placeholder directories via .gitkeep)
+evidence/packet_captures/*.pcap
+evidence/packet_captures/*.pcapng
+!evidence/packet_captures/.gitkeep
+evidence/logs/*.log
+!evidence/logs/.gitkeep
+!evidence/screenshots/.gitkeep
+
+# Exclude unrelated local files from other projects in active workspace
+Cisco-Packet-Tracer-LAN-Mini-Project/
+Wireshark-Protocol-Analysis/
+ZeroCTF_The_Meridian_Protocol/
+ZeroCTF_The_Meridian_Protocol*.zip
+Unit-3/
+Unit-4/
+scratch/
+stranger_credit/
+stranger_credit.zip
+challenge.zip
+Student_PRN_and_Name_List.xlsx
+create_excel.py
+download.py
+elias_voss_avatar.png
+moving_isa_*
+payload.bin
+raw_ops.bin
+shadow_gate
+unmasked_ops.bin
